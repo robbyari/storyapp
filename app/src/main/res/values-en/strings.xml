@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Story App</string>
+    <string name="app">Early Submissions\nStory App</string>
+    <string name="lanjut">Next</string>
+    <string name="descApp">Learn Intermediate Android Application Development</string>
+    <string name="masukan_email">Enter Email</string>
+    <string name="masuk">Login</string>
+    <string name="belum_punya_akun">Don\'t have an account yet?</string>
+    <string name="register">Register</string>
+    <string name="masukan_password">Enter Password</string>
+    <string name="masukan_nama">Enter Name</string>
+    <string name="settings">Settings</string>
+    <string name="user">User</string>
+    <string name="hallo">Hallo Robby</string>
+    <string name="pesan">This is the main story page</string>
+    <string name="image_story">Image Story</string>
+    <string name="add_story">Add Story</string>
+    <string name="detail_story">Detail Story</string>
+    <string name="add">Add</string>
+    <string name="deskripsi">Description</string>
+    <string name="errorpassword">Password less than 8 characters</string>
+    <string name="erroremail">The email is not in the correct format</string>
+    <string name="successLogin">You have successfully logged in.</string>
+    <string name="account_created">Account created successfully.</string>
+    <string name="description_not_empty">Description cannot be empty.</string>
+    <string name="please_enter_image">Please enter the image file first.</string>
+    <string name="upload_success">Upload successfull.</string>
+    <string name="close">Close</string>
+    <string name="choose_picture">Choose a Picture</string>
+    <string name="yeah">Yeah!</string>
+    <string name="id_story">ID Story :</string>
+    <string name="created_at">Created At :</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="logo">logo</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_text_1">Story</string>
+    <string name="tab_text_2">Maps</string>
+    <string name="retry">Try Again</string>
+</resources>

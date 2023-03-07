@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Story App</string>
+    <string name="app">Submission Awal\nStory App</string>
+    <string name="lanjut">Lanjut</string>
+    <string name="descApp">Belajar Pengembangan Aplikasi Android Intermediate</string>
+    <string name="masukan_email">Masukan Email</string>
+    <string name="masuk">Masuk</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="register">Daftar</string>
+    <string name="masukan_password">Masukan Password</string>
+    <string name="masukan_nama">Masukan Nama</string>
+    <string name="settings">Pengaturan</string>
+    <string name="user">Pengguna</string>
+    <string name="hallo">Hallo Robby</string>
+    <string name="pesan">Ini adalah halaman utama story</string>
+    <string name="image_story">Gambar Story</string>
+    <string name="add_story">Tambah Story</string>
+    <string name="detail_story">Detail Story</string>
+    <string name="add">Tambah</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="errorpassword">Password kurang dari 8 karakter</string>
+    <string name="erroremail">Email tidak sesuai format</string>
+    <string name="successLogin">Anda berhasil login.</string>
+    <string name="account_created">Akun berhasil dibuat.</string>
+    <string name="description_not_empty">Deskripsi tidak boleh kosong.</string>
+    <string name="please_enter_image">Silahkan masukkan berkas gambar terlebih dahulu.</string>
+    <string name="upload_success">Upload berhasil.</string>
+    <string name="close">Tutup</string>
+    <string name="choose_picture">Choose a Picture</string>
+    <string name="yeah">Yeah!</string>
+    <string name="id_story">ID Story :</string>
+    <string name="created_at">Created At :</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="logo">logo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_text_1">Cerita</string>
+    <string name="tab_text_2">Lokasi</string>
+    <string name="retry">Coba Lagi</string>
+</resources>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    app:layoutDescription="@xml/activity_login_scene"
+    tools:context=".view.login.LoginActivity">
+
+    <TextView
+        android:id="@+id/tv_item_desc"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/bungee"
+        android:text="@string/app"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/poppins"
+        android:padding="15dp"
+        android:text="@string/lanjut"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:background="@drawable/bg_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/descApp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="275dp"
+        android:layout_height="267dp"
+        android:contentDescription="@string/logo"
+        app:layout_constraintBottom_toTopOf="@+id/tv_app"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_item_desc"
+        app:srcCompat="@drawable/logoapp" />
+
+    <com.robbyari.storyapp.view.customview.EmailEditText
+        android:id="@+id/ed_login_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:hint="@string/masukan_email"
+        android:alpha="0"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <com.robbyari.storyapp.view.customview.PasswordEditText
+        android:id="@+id/ed_login_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:hint="@string/masukan_password"
+        android:alpha="0"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@id/ed_login_email"
+        app:layout_constraintStart_toStartOf="@id/ed_login_email"
+        app:layout_constraintTop_toBottomOf="@+id/ed_login_email"
+        app:layout_constraintVertical_bias="0.37" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/bg_button"
+        android:fontFamily="@font/poppins"
+        android:padding="15dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/masuk"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:alpha="0"
+        app:layout_constraintTop_toBottomOf="@id/ed_login_password"
+        app:layout_constraintEnd_toEndOf="@id/ed_login_password"
+        app:layout_constraintStart_toStartOf="@id/ed_login_password" />
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="wrap_content"
+        android:text="@string/belum_punya_akun"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@id/btn_login"
+        app:layout_constraintEnd_toEndOf="@id/btn_login"
+        app:layout_constraintTop_toBottomOf="@id/btn_login"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bg_button"
+        android:fontFamily="@font/poppins"
+        android:padding="15dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/register"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:alpha="0"
+        app:layout_constraintTop_toBottomOf="@id/tv_question"
+        app:layout_constraintEnd_toEndOf="@id/tv_question"
+        app:layout_constraintStart_toStartOf="@id/tv_question" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
